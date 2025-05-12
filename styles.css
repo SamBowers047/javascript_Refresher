@@ -5,6 +5,11 @@ header {
   padding: 10px;
 }
 
+#search {
+  padding: 5px;
+  margin: 10px;
+}
+
 .menu {
   display: none; /* Hidden by default */
 }
@@ -13,7 +18,7 @@ header {
   display: block; /* Shown when active */
 }
 
-.hamburger {
+.menu_icon {
   font-size: 24px;
   cursor: pointer;
 }
