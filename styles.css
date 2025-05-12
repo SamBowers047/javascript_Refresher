@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu {
+  display: none; /* Hidden by default */
+}
+
+.menu.active {
+  display: block; /* Shown when active */
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
