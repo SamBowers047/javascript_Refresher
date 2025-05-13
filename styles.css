@@ -1,24 +1,44 @@
 header {
   display: flex;
+  color: white;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: darkgray;
 }
 
 #search {
   padding: 5px;
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
 }
 
 .menu {
-  display: none; /* Hidden by default */
+  display: none;
 }
 
 .menu.active {
-  display: block; /* Shown when active */
+  display: block;
 }
 
 .menu_icon {
   font-size: 24px;
   cursor: pointer;
+}
+
+#posts-container {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 6px;
+  max-width: 70vw;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
 }
